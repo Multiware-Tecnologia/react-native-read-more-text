@@ -7,12 +7,14 @@
 ### Installation
 
 ```
-npm i react-native-read-more-text --save
+npm i https://github.com/Multiware-Tecnologia/react-native-read-more-text.git --save
 ```
 
 ### Usage
 
 ```javascript
+import ReadMore from 'react-native-read-more-text'
+
 export class DescriptionCard extends React.Component {
   render() {
     let { text } = this.props;
